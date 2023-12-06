@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Foodsite</title>
+</head>
+<body>
+    <div class="head">
+        <div class="head1">
+            <img src="./img/logo.png">
+        </div>
+        
+            <ul    class="head2">
+    
+    <li ><a style="color: #ec8925 ;" href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Orders</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        
+
+            <div  id="hammenu">&#9776;</div>
+    </div>
+    
+    <div>
+        
+        <ul  onClick="openNav()"  id="mobile-nav" class="navShow">
+    
+            <li ><a style="color: #ec8925 ;" href="#">Home</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Orders</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+            
+    </div>
+    <div class="one">
+        <div class="b1">
+            <h1>The Fastest <br>Delivery <br> In <span class="btw">Your City</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Commodo, sed proin amet a vestibulum 
+            enim volutpat lacus. Volutpat arcu sit sed tortor etiam volutpat ipsum.
+
+            </p>
+            <button>Order Now</button>
+        </div>
+        <div class="b2">
+            <img src="./img/image1.png">
+        </div>
+    </div>
+
+    <div class="two">
+        <div class="tw01">
+            <h3>Today 10:00am - 10:00pm</h3>
+            <h6>Working time</h6>
+        </div>
+        <div class="two2">
+            <h3>Washington,D.C.,USA</h3>
+            <h6>Our Location</h6>
+        </div>
+        <div class="two3">
+            <h3>+0123 456 7891</h3>
+            <h6>Phone Number</h6>
+        </div>
+    </div>
+    <h1 class="mid">Menu</h1>
+    <div class="three">
+        <div class="t1">
+            <img src="./img/image21.png">
+            
+            <h3>Gyro-Sandwich</h3>
+            <div class="tb1">
+                <button>order</button>
+                <p>$15.00</p>
+            </div>
+         </div>
+ 
+         <div class="t1">
+            <img src="./img/image22.png">
+            
+            <h3>Chicken Pot Pie</h3>
+            <div class="tb1">
+                <button>order</button>
+                <p>$15.00</p>
+            </div>
+         </div>
+
+         <div class="t1">
+            <img src="./img/image23.png">
+            
+            <h3>Pizza</h3>
+            <div class="tb1">
+                <button>order</button>
+                <p>$15.00</p>
+            </div>
+         </div>
+
+         <div class="t1">
+            <img src="./img/image24.png">
+            
+            <h3>Green Salad</h3>
+            <div class="tb1">
+                <button>order</button>
+                <p>$15.00</p>
+            </div>
+         </div>
+
+         <div class="t1">
+            <img src="./img/image25.png">
+            
+            <h3>Enchilade</h3>
+            <div class="tb1">
+                <button>order</button>
+                <p>$15.00</p>
+            </div>
+         </div>
+
+
+         <div class="t1">
+            <img src="./img/image26.png">
+            
+            <h3>Green Beans</h3>
+            <div class="tb1">
+                <button>order</button>
+                <p>$15.00</p>
+            </div>
+         </div>
+
+       
+    </div>
+<button class="midbutton">See all Items</button>
+
+<div class="four">
+    <div class="four41">
+            <div class="four411">
+                <img src="./img/image3.png">
+            </div>
+            <div class="four412">
+                <h1>Subscribe to our news letter</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipidrscing 
+                    elit. Purus mauris sem sed urna venenatis vivamus. 
+                    Egestas in velit nulla viverra turpis id ac. Amet faucibus tempus.
+
+                </p>
+                <div class="midflex"> 
+                <input type="email" id="mail" placeholder=" Type Your Email Address">
+                <button>Subscribe</button>
+            </div>
+
+            </div>
+
+    </div>
+</div>
+<div class="last">
+    <div class="last1">
+        <ul>
+            <li><img src="./img/logo.png"></li>
+            <li><p class="lastp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Commodo libero viverra dap..</p>
+            </li>
+            <li class="image"><img src="./img/Facebook.svg"> <img src="./img/Twitter.svg"><img src="./img/Linkedin.svg"><img src="./img/Instagram.svg"></li>
+        </ul>
+    </div>
+    <div class="last2">
+        <ul>
+            <li class="first"><b>User Link</b></li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>order Delivery</li>
+            <li>Payment & Tax</li>
+            <li>Terms of service</li>
+        </ul>
+    </div>
+    <div class="last3">
+        <ul>
+            <li class="first"><b>Contact Us</b>
+            </li>
+            <li>1234 Country Club Ave
+            </li>
+            <li>NC 123456, London, UK
+            </li>
+            <li>+0123 456 789</li>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+const menu = document.getElementById('hammenu');
+
+const nav = document.getElementById('mobile-nav');
+
+menu.addEventListener('click', openNav);
+
+function openNav() {
+    console.log(' click');
+    nav.classList.toggle('navShow');
+}
+</script>
+
+</body>
+</html>
+
+<!--
+    <ul   class="navShow">
+    
+            <li ><a style="color: #ec8925 ;" href="#">Home</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Orders</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                
+-->
